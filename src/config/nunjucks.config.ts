@@ -1,5 +1,4 @@
 import { NestExpressApplication } from '@nestjs/platform-express';
-
 import * as nunjucks from 'nunjucks';
 
 import { AssetsHelper } from '../helpers/assets.helper';

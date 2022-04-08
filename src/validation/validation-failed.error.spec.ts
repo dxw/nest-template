@@ -1,5 +1,6 @@
-import { ValidationFailedError } from './validation-failed.error';
 import { ValidationError } from 'class-validator';
+
+import { ValidationFailedError } from './validation-failed.error';
 
 class StubClass {}
 

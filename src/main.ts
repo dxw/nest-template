@@ -1,15 +1,14 @@
 /* eslint @typescript-eslint/no-var-requires: "off" */
 
+import { ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import { NestExpressApplication } from '@nestjs/platform-express';
-import { ValidationPipe } from '@nestjs/common';
 import { ValidationError } from 'class-validator';
-
 import * as path from 'path';
 
 import { AppModule } from './app.module';
-import { ValidationFailedError } from './validation/validation-failed.error';
 import { nunjucksConfig } from './config/nunjucks.config';
+import { ValidationFailedError } from './validation/validation-failed.error';
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);

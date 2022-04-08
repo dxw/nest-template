@@ -8,7 +8,6 @@ import * as path from 'path';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-
 import dbConfiguration from './config/db.config';
 
 @Module({

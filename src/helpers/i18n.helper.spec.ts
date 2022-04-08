@@ -1,7 +1,8 @@
-import { I18nHelper } from './i18n.helper';
 import { createMock } from '@golevelup/ts-jest';
 import { NestExpressApplication } from '@nestjs/platform-express';
 import { I18nService } from 'nestjs-i18n';
+
+import { I18nHelper } from './i18n.helper';
 
 describe('I18nHelper', () => {
   let service: I18nService;
