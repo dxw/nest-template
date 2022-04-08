@@ -22,4 +22,12 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'off',
     'simple-import-sort/imports': 'error',
   },
+  overrides: [
+    {
+      files: 'cypress/**/*.{ts,js}',
+      parserOptions: {
+        project: 'cypress/tsconfig.json',
+      },
+    },
+  ],
 };
