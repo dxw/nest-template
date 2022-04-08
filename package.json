@@ -39,6 +39,7 @@
     "class-validator": "^0.13.1",
     "file-loader": "^6.2.0",
     "govuk-frontend": "^3.14.0",
+    "nestjs-i18n": "^9.0.4",
     "nunjucks": "^3.2.3",
     "pg": "^8.7.1",
     "reflect-metadata": "^0.1.13",
