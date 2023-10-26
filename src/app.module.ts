@@ -3,7 +3,7 @@ process.env.NODE_ENV ||= 'development';
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { I18nModule } from 'nestjs-i18n';
+import { AcceptLanguageResolver, I18nModule } from 'nestjs-i18n';
 import * as path from 'path';
 
 import { AppController } from './app.controller';
@@ -28,6 +28,7 @@ import dbConfiguration from './config/db.config';
         path: path.join(__dirname, '/i18n/'),
         watch: true,
       },
+      resolvers: [AcceptLanguageResolver],
     }),
   ],
   controllers: [AppController],
