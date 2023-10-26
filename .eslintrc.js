@@ -1,7 +1,7 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: 'tsconfig.json',
+    project: ['tsconfig.json', 'cypress/tsconfig.json'],
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint/eslint-plugin', 'simple-import-sort'],
@@ -14,7 +14,7 @@ module.exports = {
     node: true,
     jest: true,
   },
-  ignorePatterns: ['.eslintrc.js'],
+  ignorePatterns: ['.eslintrc.js', 'cypress.config.ts', 'webpack.config.js'],
   rules: {
     '@typescript-eslint/interface-name-prefix': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
@@ -22,12 +22,4 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'off',
     'simple-import-sort/imports': 'error',
   },
-  overrides: [
-    {
-      files: 'cypress/**/*.{ts,js}',
-      parserOptions: {
-        project: 'cypress/tsconfig.json',
-      },
-    },
-  ],
 };
