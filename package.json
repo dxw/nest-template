@@ -50,6 +50,8 @@
     "typeorm": "^0.3.17"
   },
   "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+    "@cypress/browserify-preprocessor": "^3.0.2",
     "@golevelup/ts-jest": "^0.3.2",
     "@nestjs/cli": "^10.2.0",
     "@nestjs/schematics": "^10.0.2",
@@ -61,8 +63,7 @@
     "@types/supertest": "^2.0.11",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
-    "cypress": "^9.0.0",
-    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress": "^13.3.3",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
