@@ -52,7 +52,7 @@
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
     "@cypress/browserify-preprocessor": "^3.0.2",
-    "@golevelup/ts-jest": "^0.4.0",
+    "@golevelup/ts-jest": "^0.5.0",
     "@nestjs/cli": "^10.2.0",
     "@nestjs/schematics": "^10.0.2",
     "@nestjs/testing": "^10.2.7",
