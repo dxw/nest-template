@@ -46,7 +46,7 @@
     "rimraf": "^3.0.2",
     "rxjs": "^7.4.0",
     "sass": "^1.43.4",
-    "sass-loader": "^13.3.2",
+    "sass-loader": "^16.0.0",
     "typeorm": "^0.3.17"
   },
   "devDependencies": {
