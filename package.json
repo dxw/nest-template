@@ -43,7 +43,7 @@
     "nunjucks": "^3.2.3",
     "pg": "^8.7.1",
     "reflect-metadata": "^0.1.13",
-    "rimraf": "^3.0.2",
+    "rimraf": "^6.0.0",
     "rxjs": "^7.4.0",
     "sass": "^1.43.4",
     "sass-loader": "^13.3.2",
